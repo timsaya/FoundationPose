@@ -1,8 +1,18 @@
 # PyTorch 2.7 for RTX 5080 CUDA 12.8 compatibility
---extra-index-url https://download.pytorch.org/whl/cu128
-torch==2.7.1+cu128
-torchaudio==2.7.1+cu128
-torchvision==0.22.1+cu128
+# --extra-index-url https://download.pytorch.org/whl/cu128
+# torch==2.7.1+cu128
+# torchaudio==2.7.1+cu128
+# torchvision==0.22.1+cu128
+
+
+# python 3.10
+# PyTorch 2.8 for RTX 5090 CUDA 12.9 compatibility
+--extra-index-url https://download.pytorch.org/whl/cu129
+torch==2.8.0+cu129
+torchaudio==2.8.0+cu129
+torchvision==0.23.0+cu129
+
+
 
 
 # JupyterLab
